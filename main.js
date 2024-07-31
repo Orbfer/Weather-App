@@ -136,7 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/styles.css */ \"./src/styles/styles.css\");\n/* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! animate.css */ \"./node_modules/animate.css/animate.css\");\n/* harmony import */ var _scripts_checkWeather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scripts/checkWeather */ \"./src/scripts/checkWeather.js\");\n/* harmony import */ var _scripts_changeUnit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scripts/changeUnit */ \"./src/scripts/changeUnit.js\");\n\r\n\r\n\r\n\r\nconst searchInput = document.querySelector(\".search input\");\r\nconst searchBtn = document.querySelector(\".search button\");\r\nconst unitBtn = document.querySelector(\".unit-btn\");\r\nunitBtn.addEventListener(\"click\", _scripts_changeUnit__WEBPACK_IMPORTED_MODULE_3__.changeUnit);\r\nsearchBtn.addEventListener(\"click\", searchCityInfo);\r\nsearchInput.addEventListener(\"keydown\", (event) => {\r\n  if (event.key === \"Enter\") {\r\n    searchCityInfo();\r\n  }\r\n});\r\nfunction searchCityInfo() {\r\n  (0,_scripts_checkWeather__WEBPACK_IMPORTED_MODULE_2__.checkWeather)(searchInput.value);\r\n}\r\n(0,_scripts_checkWeather__WEBPACK_IMPORTED_MODULE_2__.checkWeather)(\"london\");\r\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/styles.css */ \"./src/styles/styles.css\");\n/* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! animate.css */ \"./node_modules/animate.css/animate.css\");\n/* harmony import */ var _scripts_checkWeather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scripts/checkWeather */ \"./src/scripts/checkWeather.js\");\n/* harmony import */ var _scripts_changeUnit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scripts/changeUnit */ \"./src/scripts/changeUnit.js\");\n/* harmony import */ var _images_celsius_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/celsius-svgrepo-com.svg */ \"./src/images/celsius-svgrepo-com.svg\");\n/* harmony import */ var _images_clear_day_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/clear-day-svgrepo-com.svg */ \"./src/images/clear-day-svgrepo-com.svg\");\n/* harmony import */ var _images_clear_night_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/clear-night-svgrepo-com.svg */ \"./src/images/clear-night-svgrepo-com.svg\");\n/* harmony import */ var _images_cloudy_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/cloudy-svgrepo-com.svg */ \"./src/images/cloudy-svgrepo-com.svg\");\n/* harmony import */ var _images_farenheit_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/farenheit-svgrepo-com.svg */ \"./src/images/farenheit-svgrepo-com.svg\");\n/* harmony import */ var _images_fog_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./images/fog-svgrepo-com.svg */ \"./src/images/fog-svgrepo-com.svg\");\n/* harmony import */ var _images_night_gif__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./images/night.gif */ \"./src/images/night.gif\");\n/* harmony import */ var _images_partly_cloudy_day_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./images/partly-cloudy-day-svgrepo-com.svg */ \"./src/images/partly-cloudy-day-svgrepo-com.svg\");\n/* harmony import */ var _images_partly_cloudy_night_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./images/partly-cloudy-night-svgrepo-com.svg */ \"./src/images/partly-cloudy-night-svgrepo-com.svg\");\n/* harmony import */ var _images_rain_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./images/rain-svgrepo-com.svg */ \"./src/images/rain-svgrepo-com.svg\");\n/* harmony import */ var _images_search_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./images/search-svgrepo-com.svg */ \"./src/images/search-svgrepo-com.svg\");\n/* harmony import */ var _images_snow_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./images/snow-svgrepo-com.svg */ \"./src/images/snow-svgrepo-com.svg\");\n/* harmony import */ var _images_water_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./images/water-svgrepo-com.svg */ \"./src/images/water-svgrepo-com.svg\");\n/* harmony import */ var _images_wind_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./images/wind-svgrepo-com.svg */ \"./src/images/wind-svgrepo-com.svg\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images/wind-svgrepo-com-1.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst searchInput = document.querySelector(\".search input\");\r\nconst searchBtn = document.querySelector(\".search button\");\r\nconst unitBtn = document.querySelector(\".unit-btn\");\r\nunitBtn.addEventListener(\"click\", _scripts_changeUnit__WEBPACK_IMPORTED_MODULE_3__.changeUnit);\r\nsearchBtn.addEventListener(\"click\", searchCityInfo);\r\nsearchInput.addEventListener(\"keydown\", (event) => {\r\n  if (event.key === \"Enter\") {\r\n    searchCityInfo();\r\n  }\r\n});\r\nfunction searchCityInfo() {\r\n  (0,_scripts_checkWeather__WEBPACK_IMPORTED_MODULE_2__.checkWeather)(searchInput.value);\r\n}\r\n(0,_scripts_checkWeather__WEBPACK_IMPORTED_MODULE_2__.checkWeather)(\"london\");\r\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 
@@ -177,6 +177,146 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   checkWeather: () => (/* binding */ checkWeather),\n/* harmony export */   setUnits: () => (/* binding */ setUnits),\n/* harmony export */   units: () => (/* binding */ units)\n/* harmony export */ });\n/* harmony import */ var _changeWeatherIcon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./changeWeatherIcon */ \"./src/scripts/changeWeatherIcon.js\");\n/* harmony import */ var _changeDayAndNight__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./changeDayAndNight */ \"./src/scripts/changeDayAndNight.js\");\n\r\n\r\nconst apiKey = \"Q529G92N8LRM9PC8K4TEFBCWV\";\r\nconst apiUrl =\r\n  \"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/\";\r\nlet units = \"metric\";\r\nlet unitSymbol = \"°C\";\r\nlet windSpeedUnit = \"km/h\";\r\nasync function checkWeather(city) {\r\n  const response = await fetch(\r\n    apiUrl + city + `?key=${apiKey}` + `&unitGroup=${units}`\r\n  );\r\n  let data = await response.json();\r\n  if (units === \"us\") {\r\n    unitSymbol = \"°F\";\r\n    windSpeedUnit = \"m/h\";\r\n  } else {\r\n    unitSymbol = \"°C\";\r\n    windSpeedUnit = \"km/h\";\r\n  }\r\n  document.querySelector(\".city\").textContent = data.resolvedAddress;\r\n  document.querySelector(\".temp\").textContent =\r\n    Math.round(data.currentConditions.temp) + unitSymbol;\r\n  document.querySelector(\".humidity\").textContent =\r\n    data.currentConditions.humidity + \"%\";\r\n  document.querySelector(\".wind\").textContent =\r\n    data.currentConditions.windspeed + windSpeedUnit;\r\n  (0,_changeWeatherIcon__WEBPACK_IMPORTED_MODULE_0__.changeWeatherIcon)(data);\r\n  (0,_changeDayAndNight__WEBPACK_IMPORTED_MODULE_1__.changeDayAndNight)(data);\r\n}\r\nfunction setUnits(newUnits) {\r\n  units = newUnits;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://weather-app/./src/scripts/checkWeather.js?");
+
+/***/ }),
+
+/***/ "./src/images/celsius-svgrepo-com.svg":
+/*!********************************************!*\
+  !*** ./src/images/celsius-svgrepo-com.svg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7fb6a737199ad1c35fae.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/celsius-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/clear-day-svgrepo-com.svg":
+/*!**********************************************!*\
+  !*** ./src/images/clear-day-svgrepo-com.svg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"73cc0665ea2eb6551ea7.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/clear-day-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/clear-night-svgrepo-com.svg":
+/*!************************************************!*\
+  !*** ./src/images/clear-night-svgrepo-com.svg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a625abac1e1a7ff4ee87.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/clear-night-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/cloudy-svgrepo-com.svg":
+/*!*******************************************!*\
+  !*** ./src/images/cloudy-svgrepo-com.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"461352560fba3c250a7d.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/cloudy-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/farenheit-svgrepo-com.svg":
+/*!**********************************************!*\
+  !*** ./src/images/farenheit-svgrepo-com.svg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4bf38bd8868dd565ab8e.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/farenheit-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/fog-svgrepo-com.svg":
+/*!****************************************!*\
+  !*** ./src/images/fog-svgrepo-com.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"22554f4db443f6938bd4.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/fog-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/night.gif":
+/*!******************************!*\
+  !*** ./src/images/night.gif ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"40ee470cf56f8c80f955.gif\";\n\n//# sourceURL=webpack://weather-app/./src/images/night.gif?");
+
+/***/ }),
+
+/***/ "./src/images/partly-cloudy-day-svgrepo-com.svg":
+/*!******************************************************!*\
+  !*** ./src/images/partly-cloudy-day-svgrepo-com.svg ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c9f8074aca53e9feb9ea.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/partly-cloudy-day-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/partly-cloudy-night-svgrepo-com.svg":
+/*!********************************************************!*\
+  !*** ./src/images/partly-cloudy-night-svgrepo-com.svg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b70c19770c33e2cfd6cc.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/partly-cloudy-night-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/rain-svgrepo-com.svg":
+/*!*****************************************!*\
+  !*** ./src/images/rain-svgrepo-com.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f0dc5d1a40af4498af32.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/rain-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/search-svgrepo-com.svg":
+/*!*******************************************!*\
+  !*** ./src/images/search-svgrepo-com.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e6096b2c206fbe047486.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/search-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/snow-svgrepo-com.svg":
+/*!*****************************************!*\
+  !*** ./src/images/snow-svgrepo-com.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"982199a9cde0728e6d57.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/snow-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/water-svgrepo-com.svg":
+/*!******************************************!*\
+  !*** ./src/images/water-svgrepo-com.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"802fafdd127ea4b5aaf8.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/water-svgrepo-com.svg?");
+
+/***/ }),
+
+/***/ "./src/images/wind-svgrepo-com.svg":
+/*!*****************************************!*\
+  !*** ./src/images/wind-svgrepo-com.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6b19c5b015e6b3118234.svg\";\n\n//# sourceURL=webpack://weather-app/./src/images/wind-svgrepo-com.svg?");
 
 /***/ })
 
@@ -231,6 +371,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -245,6 +397,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
